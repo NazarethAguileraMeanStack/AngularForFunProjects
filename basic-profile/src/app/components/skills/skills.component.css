@@ -1,0 +1,18 @@
+
+.skillsSection {
+    width: 96%;
+    padding-right: 15px;
+    margin-left: -10px;
+}
+
+
+
+ul li {
+    list-style-type: none;
+    padding: 5px;
+}
+
+
+li {
+    font-size: 20px;
+}

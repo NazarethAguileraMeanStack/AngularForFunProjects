@@ -1,0 +1,16 @@
+
+.aboutSection {
+    padding: 15px 30px 15px 15px;
+    margin: 0 auto;
+}
+
+
+h3 {
+    text-shadow: 1px 1px 1px #222, 2px 2px 2px #000;
+
+}
+
+p {
+    text-shadow: 1px 1px 1px #000;
+
+}

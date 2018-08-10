@@ -1,2 +1,42 @@
-<h2>TEST Aguilera</h2>
 
+<div class="container-fluid">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <app-title></app-title>
+      </div>
+    </div>
+  </div>
+
+  <div class="middleSection">
+    <div class="row">
+      <div class="col-sm-6">
+        <app-profilePic></app-profilePic>
+      </div>
+      <div class="col-sm-6">
+        <h3 (click)="toggleAbout = !toggleAbout">About Me:</h3>
+        <app-about *ngIf="toggleAbout === true"></app-about>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <h3 (click)="toggleSkills = !toggleSkills">Skills:</h3>
+        <app-skills *ngIf="toggleSkills === true"></app-skills>
+      </div>
+    </div>
+  </div>
+
+  <div class="contactSection">
+    <div class="row">
+      <div class="col-sm-12">
+        <h3 (click)="toggleContact = !toggleContact">Contact Me:</h3>
+        <app-contact *ngIf="toggleContact === true"></app-contact>
+      </div>
+    </div>
+  </div>
+</div>
+
+<app-footer></app-footer>
