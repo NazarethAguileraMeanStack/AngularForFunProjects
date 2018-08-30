@@ -1,0 +1,27 @@
+/* You can add global styles to this file, and also import other style files */
+
+h1 {
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    max-width: 320px;
+    margin: 0 auto 15px auto;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 5px;
+
+}
+
+
+button {
+    margin: 0 auto;
+}
+
+.info {
+    font-size: 1.4em;
+}
+

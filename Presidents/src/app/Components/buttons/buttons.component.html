@@ -1,0 +1,19 @@
+
+<!-- this is the HTML FILE for the Buttons Component.-->
+
+<!-- Next Button -->
+<!-- ***Will be disabled if last President is active -->
+<!-- nextPresident() sends a request to change the counter in the presidentData Service. -->
+
+<!-- Previous Button -->
+<!-- ***Will be disabled if first President is active -->
+<!-- previousPresident() sends a request to change the counter in the presidentData Service. -->
+
+<div class="row">
+    <div class="col-xs-6">
+        <button class="btn btn-primary" [disabled]="presNum == 1 ? true : false" (click)="previousPresident()">Prev</button>
+    </div>
+    <div class="col-xs-6">
+        <button class="btn btn-primary" [disabled]="presNum == 45 ? true : false" (click)="nextPresident()">Next</button>
+    </div>
+</div>
